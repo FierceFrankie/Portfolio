@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            color: pink;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkorchid;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        .test {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+} 
+    </style>
+    <script>
+        function displayResult() {
+            document.getElementById("paragraph1").innerHTML = `I've been changed.`;
+        }
+    </script>
+</head>
+<body style="width: 100%; background-color:lightgreen">
+    <header>
+        <nav style="width: 80%">
+            <a href="https://www.twitch.tv/Frankietron" target="_blank">Twitch</a> | <a href="https://twitter.com/TheFrankie" target="_blank">Twitter</a>
+            <img src="logo.png" id="logo"></img>
+        </nav>
+    </header>
+
+    <main>
+        <button onclick="displayResult()">Change Paragraph 1</button>
+        <div class="test">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+          </div>
+        <p id="paragraph1">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Fugit illum, omnis consequatur modi <br> similique officia iusto cum quo <br> nobis atque doloremque iure voluptatum, <br> velit vitae ad saepe repellat <br> ratione at suscipit reiciendis libero. <br> Eaque nisi sed accusamus molestiae? <br> Suscipit, optio!</p>
+        <p id="paragraph2">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Fugit illum, omnis consequatur modi <br> similique officia iusto cum quo <br> nobis atque doloremque iure voluptatum, <br> velit vitae ad saepe repellat <br> ratione at suscipit reiciendis libero. <br> Eaque nisi sed accusamus molestiae? <br> Suscipit, optio!</p>
+        <p id="paragraph3">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Fugit illum, omnis consequatur modi <br> similique officia iusto cum quo <br> nobis atque doloremque iure voluptatum, <br> velit vitae ad saepe repellat <br> ratione at suscipit reiciendis libero. <br> Eaque nisi sed accusamus molestiae? <br> Suscipit, optio!</p>
+        <p id="paragraph4">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Fugit illum, omnis consequatur modi <br> similique officia iusto cum quo <br> nobis atque doloremque iure voluptatum, <br> velit vitae ad saepe repellat <br> ratione at suscipit reiciendis libero. <br> Eaque nisi sed accusamus molestiae? <br> Suscipit, optio!</p>
+        <pre>
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+            Fugit illum, omnis consequatur modi
+            similique officia iusto cum quo
+            nobis atque doloremque iure voluptatum,
+            velit vitae ad saepe repellat
+            ratione at suscipit reiciendis libero.
+            Eaque nisi sed accusamus molestiae?
+            Suscipit, optio!
+        </pre>
+</main>
+
+    <footer>
+<a href="#logo">Back to Top of the Page</a>
+    </footer>
+</body>
+</html>

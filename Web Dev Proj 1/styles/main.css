@@ -1,0 +1,51 @@
+/* ELEMENT SELECTORS */
+h1 {
+    color: cornflowerblue;
+    /* Absolute Values*/
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+}
+h2 {
+    color: indigo;
+    font-size: 30px;
+}
+main {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: rgb(221, 160, 221);
+}
+/* DIV & SPAN ELEMENTS*/
+span {
+    text-transform: uppercase;
+}
+/* MULTIPLE SELECTORS */
+h3,
+h4 {
+    color: cadetblue;
+}
+/* ID SELECTORS */
+#ordered {
+    background-color: lightcoral;
+}
+/*  CLASS SELECTORS / DIV & SPAN USUALLY USE THESE */
+.green {
+    color: green
+}
+.yellow {
+    color: yellow
+}
+.outer {
+    background: blue;
+    /* Absolute Values*/
+    width: 1920px;
+    height: 1080px;
+}
+.inner {
+    background: purple;
+    /* Relative Values To Parent (Outer)*/
+    width: 50%;
+    height: 70%
+}
